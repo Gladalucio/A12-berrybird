@@ -17,18 +17,18 @@ namespace BerryBird
             InitializeComponent();
         }
 
-        Form1 frm1;
+        Game frm1;
 
         private void Menu_Load(object sender, EventArgs e)
         {
-            frm1 = Owner as Form1;
+            frm1 = Owner as Game;
         }
 
         private void ButtonClick(object sender, EventArgs e)
         {
-            Button btn = (Button)sender;
-            string buttonname = btn.Name;
-            int name = int.Parse(buttonname.Substring(3, 1));
+            var btn = (Button)sender;
+            var buttonname = btn.Name;
+            var name = int.Parse(buttonname.Substring(3, 1));
 
             if (txtPlayerName.Text == "")
             {
