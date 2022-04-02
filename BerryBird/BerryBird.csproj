@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>BerryBird</RootNamespace>
     <AssemblyName>BerryBird</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <PublishUrl>publish\</PublishUrl>
@@ -26,6 +26,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,6 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -104,24 +106,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BerryBird_Intro.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BerryBird_Intro.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\coinsound.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mariah Carey - All I Want For Christmas Is YOU8-BIT VERSIONChristmas Collection.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cut.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BerryBird_Intro_01.wav" />
-  </ItemGroup>
-  <ItemGroup>
     <COMReference Include="AxWMPLib">
       <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -139,21 +123,6 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\clappers_berry2 8 bit death.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\clappers_berry2 8 bit.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cut2.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\death2.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\themesong.bmp" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">

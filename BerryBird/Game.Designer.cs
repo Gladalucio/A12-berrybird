@@ -68,7 +68,7 @@
             this.pbBottom.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbBottom.BackgroundImage")));
             this.pbBottom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbBottom.Location = new System.Drawing.Point(-2, -28);
-            this.pbBottom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbBottom.Margin = new System.Windows.Forms.Padding(2);
             this.pbBottom.Name = "pbBottom";
             this.pbBottom.Size = new System.Drawing.Size(639, 385);
             this.pbBottom.TabIndex = 0;
@@ -80,7 +80,7 @@
             this.pb1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb1.BackgroundImage")));
             this.pb1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pb1.Location = new System.Drawing.Point(255, 0);
-            this.pb1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb1.Margin = new System.Windows.Forms.Padding(2);
             this.pb1.Name = "pb1";
             this.pb1.Size = new System.Drawing.Size(45, 132);
             this.pb1.TabIndex = 1;
@@ -92,7 +92,7 @@
             this.player.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("player.BackgroundImage")));
             this.player.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.player.Location = new System.Drawing.Point(130, 149);
-            this.player.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.player.Margin = new System.Windows.Forms.Padding(2);
             this.player.Name = "player";
             this.player.Size = new System.Drawing.Size(32, 41);
             this.player.TabIndex = 3;
@@ -104,7 +104,7 @@
             this.pb2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb2.BackgroundImage")));
             this.pb2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pb2.Location = new System.Drawing.Point(356, 176);
-            this.pb2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb2.Margin = new System.Windows.Forms.Padding(2);
             this.pb2.Name = "pb2";
             this.pb2.Size = new System.Drawing.Size(45, 182);
             this.pb2.TabIndex = 5;
@@ -116,7 +116,7 @@
             this.pb3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb3.BackgroundImage")));
             this.pb3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pb3.Location = new System.Drawing.Point(422, 0);
-            this.pb3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb3.Margin = new System.Windows.Forms.Padding(2);
             this.pb3.Name = "pb3";
             this.pb3.Size = new System.Drawing.Size(45, 77);
             this.pb3.TabIndex = 4;
@@ -129,7 +129,7 @@
             this.pb4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb4.BackgroundImage")));
             this.pb4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pb4.Location = new System.Drawing.Point(486, 240);
-            this.pb4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb4.Margin = new System.Windows.Forms.Padding(2);
             this.pb4.Name = "pb4";
             this.pb4.Size = new System.Drawing.Size(45, 117);
             this.pb4.TabIndex = 7;
@@ -141,7 +141,7 @@
             this.pb5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb5.BackgroundImage")));
             this.pb5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pb5.Location = new System.Drawing.Point(553, 0);
-            this.pb5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb5.Margin = new System.Windows.Forms.Padding(2);
             this.pb5.Name = "pb5";
             this.pb5.Size = new System.Drawing.Size(45, 147);
             this.pb5.TabIndex = 6;
@@ -158,7 +158,7 @@
             this.pb0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb0.BackgroundImage")));
             this.pb0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pb0.Location = new System.Drawing.Point(206, 218);
-            this.pb0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb0.Margin = new System.Windows.Forms.Padding(2);
             this.pb0.Name = "pb0";
             this.pb0.Size = new System.Drawing.Size(45, 139);
             this.pb0.TabIndex = 10;
@@ -288,8 +288,8 @@
             this.pbPlane.BackColor = System.Drawing.Color.Transparent;
             this.pbPlane.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbPlane.BackgroundImage")));
             this.pbPlane.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbPlane.Location = new System.Drawing.Point(630, 151);
-            this.pbPlane.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbPlane.Location = new System.Drawing.Point(647, 151);
+            this.pbPlane.Margin = new System.Windows.Forms.Padding(2);
             this.pbPlane.Name = "pbPlane";
             this.pbPlane.Size = new System.Drawing.Size(168, 115);
             this.pbPlane.TabIndex = 23;
@@ -326,10 +326,10 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Game";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Berry\'s Battle";
+            this.Text = "BerryBird";
             this.Activated += new System.EventHandler(this.Form1_Activated);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Movement);

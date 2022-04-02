@@ -19,7 +19,7 @@ namespace BerryBird.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -63,45 +63,36 @@ namespace BerryBird.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream coinsound {
+        internal static System.IO.UnmanagedMemoryStream coin {
             get {
-                return ResourceManager.GetStream("coinsound", resourceCulture);
+                return ResourceManager.GetStream("coin", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream death2 {
+        internal static System.IO.UnmanagedMemoryStream death {
             get {
-                return ResourceManager.GetStream("death2", resourceCulture);
+                return ResourceManager.GetStream("death", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream intro_loud {
+        internal static System.IO.UnmanagedMemoryStream intro {
             get {
-                return ResourceManager.GetStream("intro_loud", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream intro_quiet {
-            get {
-                return ResourceManager.GetStream("intro_quiet", resourceCulture);
+                return ResourceManager.GetStream("intro", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap player_alive {
+        internal static System.Drawing.Bitmap player {
             get {
-                object obj = ResourceManager.GetObject("player_alive", resourceCulture);
+                object obj = ResourceManager.GetObject("player", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -109,9 +100,9 @@ namespace BerryBird.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap player_death {
+        internal static System.Drawing.Bitmap player_dead {
             get {
-                object obj = ResourceManager.GetObject("player_death", resourceCulture);
+                object obj = ResourceManager.GetObject("player_dead", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

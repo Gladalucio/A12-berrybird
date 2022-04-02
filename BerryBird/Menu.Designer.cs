@@ -51,11 +51,12 @@
             // 
             this.lbltxtBerry.AutoSize = true;
             this.lbltxtBerry.Font = new System.Drawing.Font("Kozuka Mincho Pro B", 56.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.lbltxtBerry.Location = new System.Drawing.Point(101, 3);
+            this.lbltxtBerry.Location = new System.Drawing.Point(144, 3);
             this.lbltxtBerry.Name = "lbltxtBerry";
-            this.lbltxtBerry.Size = new System.Drawing.Size(510, 103);
+            this.lbltxtBerry.Size = new System.Drawing.Size(384, 103);
             this.lbltxtBerry.TabIndex = 1;
-            this.lbltxtBerry.Text = "Berry\'s Battle";
+            this.lbltxtBerry.Text = "BerryBird";
+            this.lbltxtBerry.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
             // 

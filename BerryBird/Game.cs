@@ -81,7 +81,7 @@ namespace BerryBird
                 sizes[i + 6] = obstacles[i].Size.Height;
             }
 
-            var introSong = new SoundPlayer(Properties.Resources.intro_loud);
+            var introSong = new SoundPlayer(Properties.Resources.intro);
             introSong.Play();
 
             lblWelcome.Visible = false;
@@ -156,7 +156,6 @@ namespace BerryBird
             }
 
             // Mariah Carey Movement
-
             for (var i = 0; i < 6; i++)
             {
                 var xpb = obstacles[i].Location.X;
@@ -172,6 +171,7 @@ namespace BerryBird
                 if (xpb < 85)
                 {
                     iScore++;
+
                     if (LevelSelect > 0 && iScore > xCo.Count - 6)
                     {
                         timer1.Stop();
@@ -194,8 +194,8 @@ namespace BerryBird
                         if (Y + player.Size.Height >= ypb && Y + player.Size.Height <= ypb + height)
                         {
                             gameState = GameState.Death;
-                            player.BackgroundImage = Properties.Resources.player_death;
-                            var death = new SoundPlayer(Properties.Resources.death2);
+                            player.BackgroundImage = Properties.Resources.player_dead;
+                            var death = new SoundPlayer(Properties.Resources.death);
                             death.Play();
 
                             playable = false;
@@ -209,8 +209,8 @@ namespace BerryBird
                         if (Y >= ypb && Y <= ypb + height)
                         {
                             gameState = GameState.Death;
-                            player.BackgroundImage = Properties.Resources.player_death;
-                            var death = new SoundPlayer(Properties.Resources.death2);
+                            player.BackgroundImage = Properties.Resources.player_dead;
+                            var death = new SoundPlayer(Properties.Resources.death);
                             death.Play();
 
                             playable = false;
@@ -222,6 +222,7 @@ namespace BerryBird
                 }
             }
         }
+
         private void GeneratePosition()
         {
             if (LevelSelect == 0)
@@ -362,8 +363,6 @@ namespace BerryBird
 
         private void PlayPause()
         {
-            var text = lblPlayPause.Text;
-
             switch (gameState)
             {
                 case GameState.Started:
@@ -375,7 +374,7 @@ namespace BerryBird
                 case GameState.Reset:
                     iLoadedIn = 1;
                     playable = true;
-                    player.BackgroundImage = Properties.Resources.player_alive;
+                    player.BackgroundImage = Properties.Resources.player;
 
                     lblPlayPause.Text = "START";
                     timer1.Enabled = false;
@@ -459,7 +458,7 @@ namespace BerryBird
                     break;
             }
 
-            // Open the file and read it's contents
+            // Open the file and read its contents
             using (sReader) //sReader = new Streamreader(@"[file]");
             {
                 while (!sReader.EndOfStream)
